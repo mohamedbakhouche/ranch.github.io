@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" />
 
     <!-- Generated with Sphinx 6.2.1 and Furo 2022.12.07 -->
-        <title>Ranch SDK 1.0.0 documentation</title>
+        <title>&lt;no title&gt; - Ranch SDK 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=91d0f0d1c444bdcb17a68e833c7a53903343c195" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -123,7 +123,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">Ranch SDK 1.0.0 documentation</div></a>
+      <a href="index.html"><div class="brand">Ranch SDK 1.0.0 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -143,7 +143,7 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
   <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="_static/ranch.png" alt="Logo"/>
@@ -188,28 +188,32 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="welcome-to-documentation">
-<h1>Welcome to documentation!<a class="headerlink" href="#welcome-to-documentation" title="Permalink to this heading">#</a></h1>
-<section id="reference">
-<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this heading">#</a></h2>
-</section>
-<section id="quickstart">
-<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">#</a></h2>
-</section>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">#</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-</ul>
-</section>
+          <p>Boto3 Documentation</p>
+<p>Documentation for ranch sdk can be found <code class="docutils literal notranslate"><span class="pre">here</span> <span class="pre">&lt;https://ranchcomputing.com&gt;</span></code>_.</p>
+<p>Generating Documentation</p>
+<p>Note: Botocore’s <code class="docutils literal notranslate"><span class="pre">requirement-docs.txt</span> <span class="pre">&lt;https://github.com/boto/botocore/blob/develop/requirements-docs.txt&gt;</span></code>_ must be installed prior to attempting the following steps.</p>
+<p>Sphinx is used for documentation. You can generate HTML locally with the
+following:</p>
+<p>Install sphinx</p>
+<p>https://sphinx-themes.org/</p>
+<p>$ mkdir docs
+$ cd docs</p>
+<p>$ pip install sphinx
+$ pip install furo
+$ pip install myst-parser</p>
+<p>$ sphinx-quickstart</p>
+<p>$ cd ..
+$ sphinx-apidoc -o docs src</p>
+<p>$ pip install -r requirements-docs.txt
+$ mkdir docs
+$ cd docs
+$ make html</p>
 
         </article>
       </div>
@@ -236,29 +240,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Welcome to documentation!</a><ul>
-<li><a class="reference internal" href="#reference">Reference</a></li>
-<li><a class="reference internal" href="#quickstart">Quickstart</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
